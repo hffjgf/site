@@ -1,0 +1,158 @@
+@media (max-width: 756px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+}
+    .header{
+        padding-top: 32px;
+        border-bottom: none;
+        &__input{
+            display: none;
+            
+        }
+    }
+    .product__lu{
+        font-size: 24px;
+    }
+    .text2-title{
+        font-size: 14px;
+    }
+.cart__button2{
+    width: 165px;
+}
+
+    .cart__content{
+        width: 355px;
+    }
+    .cart__button {
+        margin-left: 10px;
+    }
+    .text3-title{
+        font-size: 23px;
+    }
+    .text4-title{
+        font-size: 23px;
+    }
+    .cart__form{
+        width: 348px;
+    }
+    .menu{
+        display: none;
+
+
+        &-moba{
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+    }
+    .input{
+        margin-right: 2px;
+    }
+    .top-cart{
+        width: 375px;
+    }
+    .logo{
+        &__img{
+          width: 99px;
+        }
+      }
+    .text1{
+        font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    width: 100%;
+    }
+    .block{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    }
+    .menu2-link{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 14px;
+    }
+    .heading{
+    font-size: 27px;
+    line-height: 29px;
+    }
+    .for{
+        gap: 16px;
+        grid-template-columns: repeat(4,1fr);
+        &__item{
+            grid-column: 1/-1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            &_big{
+                height: 244px;
+            }
+        }
+    }
+    .int-ru{
+        display: none;
+    }
+    .filtering-form__fieldset {
+        width: 300px;
+    }
+ 
+   .filtering-form{
+    position: absolute;
+    left: 16px;
+    
+   }
+   .range{
+    width: 300px;
+   }
+   
+  .filtering-form__button{
+   margin-top: 250px;
+
+  }
+   .container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 12px;
+    margin-right: 1px;
+
+}
+.filtering-form__content-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.filtering-form{
+    width: 287px;
+}
+.footer{
+    flex-wrap: wrap;
+    width: 375px;
+}
+.product-box-pole{
+    flex-wrap: wrap;
+}
+.cart{
+    flex-wrap: wrap;
+    display: flex;
+}
+.top_cart{
+    width: 375px;
+}
+.product3-box-price{
+    margin-top: 62px;
+    margin-left: 16px;
+}
+.catalog__tu{
+    margin-top: 16px;
+}
+.pro-img{
+    display: none;
+}
+.product-box-content{
+    width: 375px;
+}
+}
+
